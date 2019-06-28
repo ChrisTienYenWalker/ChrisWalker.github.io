@@ -1,0 +1,32 @@
+/*about me */
+.about h2{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
+}
+
+.about p{
+    text-align: 200px;
+    font-size: 23px;
+    margin-right: 40px;
+    font-family: monospace;
+}
+.posy{
+    float: left;/*Grouping picture with text*/
+    margin-left: 150px;
+    margin-bottom: 0px;
+}
+/*project(highlight)*/
+.title{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
+}
+
+.project li{
+    display: inline;
+}
+
+
