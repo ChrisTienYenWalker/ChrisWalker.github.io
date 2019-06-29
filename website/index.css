@@ -1,11 +1,10 @@
-/*about me */
-.about h2{
+.title{
     text-align: center;
     text-decoration: underline;
     color: black;
     font-size: 30px;
 }
-
+/*about me */
 .about p{
     text-align: 200px;
     font-size: 23px;
@@ -17,16 +16,40 @@
     margin-left: 150px;
     margin-bottom: 0px;
 }
-/*project(highlight)*/
-.title{
-    text-align: center;
-    text-decoration: underline;
-    color: black;
-    font-size: 30px;
-}
+/* Experiences / Hobbies*/
+.xp
 
+/*project(highlight)*/
 .project li{
     display: inline;
+    text-decoration: none
 }
+.project li img{
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 0px;
+}
+ 
+.project p{
+    text-align: 200px;
+    font-size: 23px;
+    margin-right: 40px;
+    font-family: monospace;
+}
+.project a{
+    text-align: 200px;
+    font-size: 23px;
+    margin-right: 40px;
+    font-family: monospace;
+    color: black
+}
+
+.project a:hover{
+    background: rgba(225, 225, 225, .3);
+    background-size: cover;
+    color: blue
+}
+
+
 
 
