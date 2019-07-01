@@ -1,6 +1,13 @@
+/*general*/
 *{
     font-family: Times;
     box-sizing: border-box;
+}
+.minititle{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 300%;
 }
 html, body{
     margin: 0;
@@ -43,26 +50,94 @@ html, body{
 }
 
 .main-head{
-    background-image: url("images/20180828_120009.jpg");
+    background-image: url("images/20180826_101758_HDR.jpg");
     background-size: cover;
     background-blend-mode: multiply;
-    padding-bottom: 500px;
-   
+    padding-bottom: 25%;  
+    
 }
 
 .intro{
     font-size: 53px;
-    position: relative;
-    right: -817px;
-    bottom: -190px;
+    text-align: center;
+    bottom: 20px;
+    color:black;
+    vertical-align: middle;
 }
 .name{
     font-size: 85px;
-    position: relative;
-    right: -670px;
-    bottom: -150px;
+    text-align: center;
+    bottom: 20px;
+    color: black;
+    vertical-align: middle;
 }
 .footer{
     text-align: center;
     background-color: #fdeaff;
+    padding-bottom: 0px;
+}
+
+.contact{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
+}
+
+/*index.html*/
+
+/*about me */
+.about{
+    display: inline-block;
+}
+/*background image*/
+.about{
+    /*add image*/
+    background-image: url("images/");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.about p{ 
+    font-size: 230%;
+    text-align: left;
+    font-family: monospace;
+    margin-right: 50%;
+}
+/* add in later
+/* Experiences / Hobbies 
+.xp-main{
+    background-image: url("images/20180826_101758_HDR.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 500px;  
+}
+*/
+/*project(highlight)*/
+.project li{
+    display: inline;
+    text-decoration: none
+}
+.project li img{
+    float: left;
+    margin-left: 20%;
+    margin-bottom: 0px;
+}
+ 
+.project p{
+    text-align: center;
+    font-size: 230%;
+    font-family: monospace;
+    color: black
+}
+.project a{
+    text-align: center;
+    font-size: 100%;
+    font-family: monospace;
+    color: black
+}
+
+.project a:hover{
+    background: rgba(225, 225, 225, .3);
+    background-size: cover;
+    color: blue /*lights up*/
 }
