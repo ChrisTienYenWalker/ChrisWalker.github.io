@@ -36,8 +36,8 @@ html, body{
     border-bottom: 1px solid rgba(225, 225, 225, .3);
 }
 
-.main-nav li{
-    padding: 0 6%;
+.main-nav{
+    position: sticky;
 }
 .nav a{
     display: inline-block;
@@ -103,15 +103,7 @@ html, body{
     font-family: monospace;
     margin-right: 50%;
 }
-/* add in later
-/* Experiences / Hobbies 
-.xp-main{
-    background-image: url("images/20180826_101758_HDR.jpg");
-    background-size: cover;
-    background-blend-mode: multiply;
-    padding-bottom: 500px;  
-}
-*/
+
 /*project(highlight)*/
 .project li{
     display: inline;
