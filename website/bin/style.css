@@ -52,7 +52,7 @@ html, body{
 }
 
 .main-head{
-    background-image: url("images/20180826_101758_HDR.jpg");
+    background-image: url("mypicture.jpg");
     background-size: cover;
     background-blend-mode: multiply;
     padding-bottom: 25%;  

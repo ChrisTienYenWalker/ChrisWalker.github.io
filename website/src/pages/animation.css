@@ -1,0 +1,60 @@
+/*sliding text*/
+.row p{
+    height: 45px;
+    float: right;
+    margin-right: 0.3em;
+}
+.row b{
+    float: left;
+    overflow: hidden;
+    height: 78px;
+    position: relative;
+}
+.row span{
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+    font-size: 350%;
+    color: #f029ae;
+    text-align: center;
+    top: 0;
+    left: 0;
+    -webkit-animation: move 20s; /*timer*/
+    -webkit-animation-delay: 10s;
+    -webkit-animation-duration: 8s; 
+    -webkit-animation-iteration-count: infinite;
+    
+}
+
+@keyframes move /*repeater*/
+{
+    0%{top: 0%;} /*travels a loop: a-b-c-d-a-b*/
+    25%{top: -100%;}
+    50%{top:-190%;}
+    75%{top: -260%} 
+}
+.container{
+    text-align: center;
+}
+
+
+
+
+/*text typing*/
+.title h1{
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 5s steps(19);
+    white-space: nowrap;
+    font-size: 500%;
+    border-right: 4px solid #f029ae;
+
+}
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 19ch 
+    }
+}
