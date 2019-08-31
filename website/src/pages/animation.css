@@ -20,7 +20,7 @@
     top: 0;
     left: 0;
     -webkit-animation: move 20s; /*timer*/
-    -webkit-animation-delay: 10s;
+    -webkit-animation-delay: 8s;
     -webkit-animation-duration: 8s; 
     -webkit-animation-iteration-count: infinite;
     
@@ -44,10 +44,9 @@
 .title h1{
     display: inline-block;
     overflow: hidden;
-    animation: typing 5s steps(19);
+    animation: typing 5.25s steps(19);
     white-space: nowrap;
     font-size: 500%;
-    border-right: 4px solid #f029ae;
 
 }
 @keyframes typing {
@@ -57,4 +56,15 @@
     to { 
         width: 19ch 
     }
+}
+
+
+/*slide in animation*/
+.slide{
+    animation-fill-mode: both; 
+    animation-duration: 1000ms; 
+    animation-delay: 0ms; 
+    animation-iteration-count: 1; 
+    opacity: 1; 
+    animation-name: react-reveal-618658434196171-4;
 }
