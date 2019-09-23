@@ -26,11 +26,11 @@ html, body{
     font-size: 180%;
 }
 
+
 .nav{
     position: sticky;
     top: 0;
 }
-
 .main-nav{
     text-align: center;
     font-size: 1.2em;
@@ -73,27 +73,9 @@ html, body{
     color: black;
     vertical-align: middle;
 }
-.footer{
-    text-align: center;
-    background-color: #fdeaff;
-    padding-bottom: 0px;
-}
 
-.contact h3{
-    text-align: center;
-    text-decoration: underline;
-    color: black;
-    font-size: 280%;
-}
 
-.contact li{
-    display: inline;
-}
-.contact img{
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-}
+
 
 
 
