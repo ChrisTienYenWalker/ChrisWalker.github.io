@@ -80,22 +80,22 @@ html, body{
 
 .about p{
     color: white;
-    font-size: 210%
+    font-size: 170%
 }
 .about div{
     margin-left: 40%;
 }
 .about h2{
     color: white;
-    font-size: 800%;
+    font-size: 500%;
     font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 
 .about img{
     float: left;
     margin-left: 5%;
-    margin-bottom: 0px;
-    width: 27%;
+    margin-bottom: 30%;
+    width: 20%;
 }
 
 .link a{
@@ -127,6 +127,7 @@ html, body{
 
 .minititle{
     margin-left: 40%;
+    margin-top: 10%;
     color: white;
     font-size: 720%;
     font-family: Georgia, 'Times New Roman', Times, serif; 
