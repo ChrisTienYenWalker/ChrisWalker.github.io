@@ -2,10 +2,9 @@
 <html>
     <head>
         <title>Chris Walker</title>
-        <meta lang="en">
-        <link rel="stylesheet" href="src/animation.css">
+        <meta lang="en"> <!--only using english-->
+        <link rel="stylesheet" href="src/animation.css"> <!-- grabing other stuff from src-->
         <link rel="stylesheet" href="src/general.css">
-        <link rel="JavaScript" href="ok.js">
         <meta name="viewport" content="width=device-width, initial-scale=1">    
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -17,16 +16,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>\
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
     </head>
     <body>
         <div class="background">
             <div class="nav main-nav backgroundnav">
                 <nav>
                     <ul>                             
-                        <li><a href="ChrisWalker.html#about"><strong>About Me</strong></a></li>
-                        <li><a href="ChrisWalker.html#projects"><strong>Projects</strong></a></li>
+                        <li><a href="#about"><strong>About Me</strong></a></li><!--scrolling feature to go to other parts-->
+                        <li><a href="#projects"><strong>Projects</strong></a></li>
                         <li><a href="https://docs.google.com/document/d/1Lbz9afzBbgS1h7GIhO-iyVwPMowqpGklT65vkbZn5GU" target="blank"><strong>Resume</strong></a></li>
                     </ul>
                 </nav>
@@ -38,7 +37,7 @@
                     <br>
                     <br>
                     <div class="container">
-                        <div class="row">
+                        <div class="row"> <!--rotating text that says what I do and what I am doing-->
                             <b>
                                 <span>
                                     <strong>Highschool student</strong> 
@@ -54,7 +53,10 @@
                     </div>
                 </div>
                 <main>  
-                    <div class="about">
+                    <br id="about"> <br> <br> <br> <br> <br> <br> <br><!--eight breaks to make sure it slides down to the right level 
+                    br doesn't effect the spacing in this situation 
+                    -->
+                    <div class="about" > <!--quick about me-->
                         <img src="src/images/Glebe_Official.gif" sytle="padding-right:50%;"> 
                         <div>
                             <h2><strong>About Me</strong></h2>
@@ -70,24 +72,38 @@
                     </div>
                 <br>
                 <br>
-                <br>
+                <br id="projects">
                 <div>
-                <h2 class="minititle"><strong>Projects</strong></h2>
+                <!--my projects and if you click on projects it will bring you to github yuo can also find 
+                    the link to the github project via the overlay-->
+                <h2 class="minititle" >
+                    <a href="https://github.com/Master4020" style="color: white; text-decoration: none;"><strong>Projects</strong></a>
+                </h2>
                     <!--appear function, link, change in screen
                     https://www.varsitytutors.com/assets/vt-hotmath-legacy/hotmath_help/topics/graphing-linear-equations/graphing-linear-equations1.gif
                     -->
                     <div class="projects">
-                        <ul>
+                        <ul> 
                             <li>
                                 <div class="contain">
-                                <img src="https://www.varsitytutors.com/assets/vt-hotmath-legacy/hotmath_help/topics/graphing-linear-equations/graphing-linear-equations1.gif" alt="Avatar" class="image" style="height: 250px;">
-                                <div class="overlay">
-                                    <div class="text link">
-                                        <h3>Linear Calculator</h3>
-                                            <p>This is a linear calculator that can find slopes, equations and more.</p>
-                                        <a href="https://github.com/Master4020/linear-calculator">Check it out on Github</a>
+                                    <img src="https://www.varsitytutors.com/assets/vt-hotmath-legacy/hotmath_help/topics/graphing-linear-equations/graphing-linear-equations1.gif" alt="Avatar" class="image">
+                                    <div class="contain" class="overlay"> <!--creates a hover overlay to see more about the project-->
+                                       <div class="text link">
+                                            <h3>Linear Calculator</h3>
+                                                <p>This is a linear calculator that can find slopes, equations and more.</p>
+                                            <a href="https://github.com/Master4020/linear-calculator">Check it out on Github</a>
+                                        </div>
+                                </div class="contain">
+                                    <img>
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>Grades Calculator</h3>
+                                            <p></p>
+                                            <a href="https://github.com/Master4020/average-Levels.github.io">Check out the code on Github</a>
+                                            <a href="https://master4020.github.io/average-Levels.github.io/">Website</a>
+                                        </div>
+
                                     </div>
-                                </div>
                                 </div>
                             </li>
                         </ul> 
@@ -95,9 +111,14 @@
                 </div>           
             </main>
         </div>
-            <footer class="footer contact ti nav">
+            <footer class="footer contact ti nav"> <!-- 
+            links to my email, github and linkedin for people to look at
+            -->
                 <nav>
                     <ul>
+                        <li>
+                            <a href=""><img src="src/images/In.png" width="51" height="60" sytle="border-radius= 10%"></a>
+                        </li>
                         <li> 
                             <a href = "mailto:Walkercs4020@gmail.com"><img src="https://img.icons8.com/color/1600/gmail.png" width="51" height="60" sytle="border-radius= 10%"></a>
                         </li> 
